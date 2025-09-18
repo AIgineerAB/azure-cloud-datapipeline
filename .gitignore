@@ -1,3 +1,14 @@
+# dbt file
+logs/
+dbt_packages/
+target/
+
+# mac file
+.DS_Store
+
+# DuckDB
+*.duckdb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
