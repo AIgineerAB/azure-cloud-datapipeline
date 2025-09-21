@@ -35,6 +35,10 @@ This course are divided into three modules:
   After studying this module, you will 
   - understand how to update an existing data warehouse pipeline with Snowflake to DuckDB and be flexible when constructing a pipeline
   - be able to deploy a data warehouse pipeline with a collection of cloud IT resources
+  - most importantly, see the changes of the scripts from 
+    - developing the pipeline in a python uv virtual environment locally
+    - then, containerizing the pipeline and testing the containers locally
+    - lastly, deploying the container images to the cloud  
 
 </details>
 
