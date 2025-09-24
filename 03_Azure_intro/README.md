@@ -88,7 +88,7 @@ Here're some commonly used computing services in Azure. You will be creating VM,
 - Virtual machine (VM) <br> 
   VM works similarly as a physical computer. You configure specifications like OS, CPU and RAM etc upon creating a VM resource. It can be used as a lift-and-shift cloud migration as a company does not need to change its existing IT infrastructure much if it only wants to move physical servers to virtual ones. 
 - Azure Web App <br> 
-  After you have locally developed a web application, you can deploy it to Azure App Service. Azure App Service provides the underlying servers to host your production web application as an Azure Web App, which is reachable by end-users online.
+  After you have locally developed a web application, you can deploy it to Azure App Service. Azure App Service provides the underlying servers to host your production web application as an Azure Web App, which is reachable by end-users online, i.e. users can use web browsers as clients to access the application over HTTP/HTTPS protocols. 
 - Azure Functions <br>
   It's cost efficient to deploy your codes to Azure Functions if you would only like to run your codes when certain events triggers. For example, if you receive an email etc. It avoids provisioning resources when there is no actual needs for them. 
 - Azure Container Instances <br> 
