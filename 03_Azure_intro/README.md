@@ -100,8 +100,8 @@ Here're some commonly used computing services in Azure. You will be creating VM,
   <summary>🧠 <b>Knowledge check</b></summary>
   Can you explain these concepts intuitively during an interview for cloud data engineer?
 
-  - What do we describe a containerized application as short-lived and stateless?
-  - Can a containerized application persistently store data?
+  - What does it mean by a short-lived and stateless containerized application?
+  - Can a containerized application persistently store data? 
 </details>
 
 ### Data stores
@@ -134,14 +134,6 @@ On Azure, one can store different types of data with different Azure resources.
 - Azure Databricks <br> <!--velocity of big data-->
   is an *unified* data platform to combine distributed computing and storage optimal for big data analytics purposes. 
 
-<details>
-  <summary>🧠 <b>Knowledge check</b></summary>
-  Let's create a Azure Storage Account - Blob Storage to 
-  
-  - practice creating subscription, resource group and resource
-  - upload one file 
-  - understand python connection
-</details>
 
 ## Videos to review some concepts 
 For slides used in these videos, you can find them attached under this lecture folder:
