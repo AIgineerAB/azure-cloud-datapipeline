@@ -65,6 +65,17 @@ Subscription serves as a unit of billing and administration. A good structure of
 
 🔍 [More details on the hierarchy of account -> subscription -> resource group -> resource](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 
+<details>
+  <summary>🧠 <b>Knowledge check</b></summary>
+  Create a resource, storage account-blob container
+  
+  - choose and create corresponding subscription, resource group. Follow also [naming conventions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) in Azure
+  - which region should you choose?
+  - how does the choose of [redundancy](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy) affect you?
+  - upload a file as a blob to a container
+  - how do you connect to this file on the cloud via python locally?
+
+</details>
 
 ## Examples of Azure resources
 One can build an IT infrastructure with different Azure resources, or combine them with IT services on-premises or provided by other cloud platforms. Below are some Azure resources serving different purposes in an IT infrastructure:
