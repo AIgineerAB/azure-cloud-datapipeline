@@ -17,7 +17,7 @@ Follow [this link to install duckdb](https://duckdb.org/docs/installation/?versi
 We will also later need the python client for connecting to duckdb through Python in general, and through dlt and dbt. Install it under your existing uv virtual environment:
 
 ```bash
-uv pip install duckdb dlt[duckdb] dbt-duckdb
+uv pip install duckdb "dlt[duckdb]" dbt-duckdb
 ```
 
 ### DuckDB CLI
