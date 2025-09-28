@@ -14,10 +14,10 @@ DuckDB is an open source Database Management System (DBMS). It persistently stor
 
 Follow [this link to install duckdb](https://duckdb.org/docs/installation/?version=stable&environment=cli&platform=macos&download_method=package_manager) on your computer.
 
-We will also later need the python client for connecting to duckdb through Python. Install it under your existing uv virtual environment:
+We will also later need the python client for connecting to duckdb through Python in general, and through dlt and dbt. Install it under your existing uv virtual environment:
 
 ```bash
-uv pip install duckdb
+uv pip install duckdb dlt[duckdb] dbt-duckdb
 ```
 
 ### DuckDB CLI
