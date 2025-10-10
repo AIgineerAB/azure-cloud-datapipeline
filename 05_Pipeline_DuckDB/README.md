@@ -1,5 +1,22 @@
 # Deploying data pipeline to Azure
 
+
+**part 1** - Watch this for dagster in snowflake first
+
+<a href="https://www.youtube.com/watch?v=CGfrmZcfXJE" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/mds_dagster.png?raw=true" alt="duckdb data pipeline" width="600">
+</a>
+
+<br>
+<br>
+
+**part 2** - Then move on to this one where we change to duckdb
+
+<a href="https://www.youtube.com/watch?v=FumJcNrip9A" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/mds_dagster_duckdb.png?raw=true" alt="duckdb data pipeline" width="600">
+</a>
+
+
 ## Introduction
 From lectures 5 to 9, we will illustrate steps by steps how to deploy a data pipeline to Azure. We will start from a data pipeline developed locally in [another course](https://github.com/AIgineerAB/data_warehouse_course) which loads job ads data from an API with dlt to Snowflake, transform data with dbt and present the data with a Streamlit dashboard. The only difference is that we will replace Snowflake with DuckDB as the data warehouse here in this course. After going through this part of the course, you will get a hands-on experience to locally develop a data pipeline for a dashboard app, and then deploy it to Azure cloud platform. End-users can thus access the dashboard with updated data via internet.
 
