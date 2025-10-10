@@ -1,5 +1,11 @@
 # Containerization with Docker: run dagster and streamlit in containers in the host machine
 
+<a href="https://www.youtube.com/watch?v=eb95PyK1GJI" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/dockerize_data_pipeline.png?raw=true" alt="duckdb data pipeline" width="600">
+</a>
+
+
+
 In this lecture, we are going to use Docker to containerize the dlt-dbt-dagster and dashboard scripts separately. Becuase in the following lectures, they will be deployed to different Azure resources separately. For the fundamentals and setup of Docker, review lecture 4-6 in [another course](https://github.com/AIgineerAB/data_platform_course). The instructions below use the scripts we have developed in the last lecture. 
 
 ## Containerize data warehouse pipeline
