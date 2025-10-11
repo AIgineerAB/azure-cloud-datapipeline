@@ -1,5 +1,12 @@
 # Deploy Data Warehouse Pipeline
 
+
+Note that the video is same for 07 and 08
+
+<a href="https://youtu.be/6NkioZTYDlA" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/mds_azure_deploy_pipeline.png?raw=true" alt="deploy pipeline" width="600">
+</a>
+
 We will now set up the deployment of dlt-dbt-dagster scripts. This deployment is used to produce an updated DuckDB database file in File Share, which will be consumed by the downstream streamlit dashboard application.
 
 ## Instructions

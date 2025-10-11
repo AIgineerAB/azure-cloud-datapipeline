@@ -1,5 +1,11 @@
 # Set up Azure File Share for persistent storage
 
+Note that the video is same for 07 and 08
+
+<a href="https://youtu.be/6NkioZTYDlA" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/mds_azure_deploy_pipeline.png?raw=true" alt="deploy pipeline" width="600">
+</a>
+
 In the last chapter, we use the local folder *data_warehouse* as our persistent storage for the DuckDB database file. Now that we are going to deploy our containerized applications to the cloud, we have to find a location in the cloud to replace our local folder. A simple solution is to use Azure File Share. We will follow Azure naming conventions when choosing names for Azure resources.
 
 🔍 [ Check out more about Azure naming conventions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
