@@ -2,6 +2,12 @@
 
 We will be using Azure App Services to host an Azure Web App for deploying our streamlit dashboard app.
 
+
+<a href="https://youtu.be/d-aejWLUDOw" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_engineering/mds_deploy_dashboard_azure.png?raw=true" alt="deploy BI dashboard" width="600">
+</a>
+
+
 ## Instructions
 
 ### Step 1 - Update Connection in Local Scripts
