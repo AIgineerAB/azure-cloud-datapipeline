@@ -126,7 +126,7 @@ The above instructures I have taken from
 Here is all configurations for login to azure using azure-cli. Terraform will be using these information as well 
 
 ```bash
-cd ~/.azure
+ls ~/.azure
 ```
 
 Install terraform extensions in vscode. Search for it and install it.
@@ -136,9 +136,36 @@ Install terraform extensions in vscode. Search for it and install it.
 Lets build our infrastructure using terraform that is an infrastructure as code (IaC) tool. This means we don't need to go click on several resources in Azure portal to build them. 
 
 
+Type the code in main.tf and then run 
+
+```bash
+terraform init
+```
+
+to initialize terraform backend and plugins to Azure. Then do 
+
+```bash
+terraform plan
+```
+
+to show what infrastructure will be built when doing terraform apply. A .tfstate file will be created. Read and see what resources will be created and then type
+
+```bash
+terraform apply -auto-approve
+```
+
+to create your infrastructure. Now navigate to the portal and see your new resource group created. You may need to refresh your azure portal to see the resource group. To clean up the created resources with terraform run
+
+```bash
+terraform destroy -auto-approve
+```
 
 
+## Very important - gitignore
 
+> [!important]
+> copy paste this into your .gitignore to ignore terraform files
+> [terraform .gitignore](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
 
 
 
