@@ -6,7 +6,7 @@ terraform {
     }
   }
   # pessimistic operator 
-  # 1.12 ≤ x ≤ 2.0.0
+  # 1.12 ≤ x ≤ 2.0
   required_version = "~> 1.12"
 }
 
