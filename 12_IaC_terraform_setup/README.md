@@ -1,5 +1,10 @@
 # Setup terraform 
 
+<a href="https://youtu.be/d-aejWLUDOw" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/terraform/terraform_azure_setup.png?raw=true" alt="terraform setup" width="600">
+</a>
+
+
 This document is about setting up terraform for azure for windows and macos. the steps are to install terraform to your system followed by setting up Azure cli locally and then authenticating to Azure cli. 
 
 <details> 
@@ -69,7 +74,7 @@ this will open a browser, and just login to your account. Now set your subscript
 az account set --subscription "35akss-subscription-id"
 ```
 
-Before working with terraform you should set your environment variable in the shell or go into ~/.zshrc to set this 
+Before working with terraform you should set your environment variable in the shell
 
 ```bash
 $Env:ARM_SUBSCRIPTION_ID = "<SUBSCRIPTION_ID>"
