@@ -1,6 +1,6 @@
 # Setup terraform 
 
-<a href="https://youtu.be/d-aejWLUDOw" target="_blank">
+<a href="https://www.youtube.com/watch?v=IksAi_tweL4" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/terraform/terraform_azure_setup.png?raw=true" alt="terraform setup" width="600">
 </a>
 
